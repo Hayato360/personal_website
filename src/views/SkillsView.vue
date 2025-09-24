@@ -204,4 +204,21 @@ export default {
     font-size: 2.5rem !important;
   }
 }
+
+/* Apply Prompt Font */
+.skills-page * {
+  font-family: 'Prompt', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+.skills-page h1,
+.skills-page h2,
+.skills-page h3,
+.skills-page h4,
+.skills-page p,
+.skills-page .v-card-title,
+.skills-page .v-card-text,
+.skills-page .v-progress-circular,
+.skills-page .font-weight-bold {
+  font-family: 'Prompt', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
 </style>

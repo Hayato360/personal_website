@@ -445,4 +445,23 @@ export default {
     font-size: 2.5rem !important;
   }
 }
+
+/* Apply Prompt Font */
+.portfolio-page * {
+  font-family: 'Prompt', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+.portfolio-page h1,
+.portfolio-page h2,
+.portfolio-page h3,
+.portfolio-page h4,
+.portfolio-page p,
+.portfolio-page .v-card-title,
+.portfolio-page .v-card-text,
+.portfolio-page .v-chip,
+.portfolio-page .v-btn,
+.portfolio-page .project-title,
+.portfolio-page .project-description {
+  font-family: 'Prompt', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
 </style>

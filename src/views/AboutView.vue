@@ -235,4 +235,20 @@ export default {
     padding: 10px;
   }
 }
+
+/* Apply Prompt Font */
+.about-page * {
+  font-family: 'Prompt', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+.about-page h1,
+.about-page h2,
+.about-page h3,
+.about-page p,
+.about-page .v-card-title,
+.about-page .v-card-text,
+.about-page .v-list-item-title,
+.about-page .v-list-item-subtitle {
+  font-family: 'Prompt', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
 </style>

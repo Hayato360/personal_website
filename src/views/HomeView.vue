@@ -178,4 +178,16 @@ export default {
     font-size: 2.5rem !important;
   }
 }
+
+/* Apply Prompt Font */
+.home-page * {
+  font-family: 'Prompt', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+.home-page h1,
+.home-page h2,
+.home-page p,
+.home-page .v-btn {
+  font-family: 'Prompt', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
 </style>
