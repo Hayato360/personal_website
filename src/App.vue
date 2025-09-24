@@ -166,19 +166,19 @@ export default {
 
   data: () => ({
     drawer: false,
-    items: [
-      { title: 'หน้าแรก', to: '/', icon: 'mdi-home' },
-      { title: 'โปรไฟล์', to: '/profile', icon: 'mdi-account' },
-      { title: 'ทักษะ', to: '/skills', icon: 'mdi-star' },
-      { title: 'ผลงาน', to: '/portfolio', icon: 'mdi-briefcase' },
-      { title: 'เกี่ยวกับ', to: '/about', icon: 'mdi-information' }
+    navigationItems: [
+      { title: 'หน้าแรก', route: '/', icon: 'mdi-home' },
+      { title: 'โปรไฟล์', route: '/profile', icon: 'mdi-account' },
+      { title: 'ทักษะ', route: '/skills', icon: 'mdi-star' },
+      { title: 'ผลงาน', route: '/portfolio', icon: 'mdi-briefcase' },
+      { title: 'เกี่ยวกับ', route: '/about', icon: 'mdi-information' }
     ],
-    socialLinks: [
-      { icon: 'mdi-facebook', url: '#', color: '#00ff80' },
-      { icon: 'mdi-instagram', url: '#', color: '#00cc66' },
-      { icon: 'mdi-twitter', url: '#', color: '#00ff99' },
-      { icon: 'mdi-linkedin', url: '#', color: '#00e673' },
-      { icon: 'mdi-github', url: '#', color: '#1a1a1a' }
+    footerIcons: [
+      { name: 'facebook', icon: 'mdi-facebook', url: '#', color: '#00ff80' },
+      { name: 'instagram', icon: 'mdi-instagram', url: '#', color: '#00cc66' },
+      { name: 'twitter', icon: 'mdi-twitter', url: '#', color: '#00ff99' },
+      { name: 'linkedin', icon: 'mdi-linkedin', url: '#', color: '#00e673' },
+      { name: 'github', icon: 'mdi-github', url: '#', color: '#1a1a1a' }
     ]
   }),
 };
